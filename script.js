@@ -4,5 +4,4 @@ Shery.imageEffect("#back", {
   config: {
     /* Config made from debug panel */
   },
-  preset: "./presets/wigglewobble.json",
 });
