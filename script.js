@@ -35,6 +35,19 @@ Shery.imageEffect("#back", {
   preset: "./presets/wigglewobble.json",
 });
 
+// Scroll Reveal Animation //
+
+const sr = ScrollReveal({
+  distance: "65px",
+  duration: 1800,
+  delay: 450,
+  reset: true,
+});
+
+sr.reveal("#heroright", { delay: 200, origin: "top" });
+
+sr.reveal("#heroleft", { delay: 200, origin: "top" });
+
 var elems = document.querySelectorAll(".elem");
 
 elems.forEach(function (elem) {
