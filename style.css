@@ -7,8 +7,7 @@
 
 @font-face {
   font-family: "kajiro";
-  src: url("fonts/Kajiro-Bold.woff2") format("woff2"),
-    url("fonts/Kajiro\ Bold.ttf") format("truetype");
+  src: url("fonts/Kajiro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
