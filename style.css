@@ -59,7 +59,7 @@ body {
 }
 
 #nav img {
-  height: 60px;
+  height: 70px;
 }
 
 #nleft,
@@ -140,6 +140,7 @@ body {
 }
 
 #heroright p {
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.3);
   font-size: 10px;
   font-weight: 300;
   text-align: right;
@@ -150,7 +151,7 @@ body {
   height: 170px;
   margin-top: 20px;
   margin-bottom: 30px;
-  background-image: url(images/potrait.avif);
+  background-image: url(images/locate01.png);
   background-size: cover;
   background-position: center;
 }
