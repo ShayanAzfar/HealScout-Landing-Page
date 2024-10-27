@@ -4,6 +4,7 @@
   font-family: "gilroy";
   box-sizing: border-box;
   overflow: hidden;
+  scrollbar-width: none;
 }
 
 @font-face {
@@ -26,7 +27,7 @@ body {
   height: 100%;
 }
 
-html::-webkit-scrollbar {
+::-webkit-scrollbar {
  display: none; 
 }
 
